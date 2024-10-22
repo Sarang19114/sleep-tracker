@@ -118,8 +118,8 @@ Use MQTT to publish sensor data to your server or directly via API endpoints.
 
 - **Sarang Rastogi**
 - **Ruqayya Shah**
-- **Yash**
-- **Akshat**
-- **Janvi**
+- **Yash Chaturvedi**
+- **Akshat Jain**
+- **Janvi Chauhan**
 
 ---
