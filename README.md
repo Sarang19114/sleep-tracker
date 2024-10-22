@@ -77,6 +77,9 @@ This project, built for a hackathon, is a **Next.js** application that tracks va
 Flash the ESP8266 with the required code to connect the sensors and send data to the Next.js API.
 Use MQTT to publish sensor data to your server or directly via API endpoints.
 
+<img src="https://github.com/user-attachments/assets/cc399122-183f-4f19-9e16-2ca6ea825225" alt="image" height="500" width="600" />
+
+
 ## How It Works
 
 1. **Sensor Data Collection**:  
