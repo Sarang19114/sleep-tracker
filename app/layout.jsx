@@ -9,7 +9,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-[url('/assets/image.png')] bg-center bg-fixed min-h-screen text-gray-900 ">
+      <body className="bg-center bg-fixed min-h-screen text-gray-900 ">
         <nav className="bg-gradient-to-r from-blue-600 to-indigo-600 text-white p-4 shadow-lg">
           <div className="container mx-auto flex flex-col sm:flex-row justify-between items-center">
             <Link href="/" className="text-2xl font-bold mb-4 sm:mb-0">

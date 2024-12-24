@@ -1,5 +1,10 @@
+"use client";
+import React from "react";
+import { WavyBackground } from "@/components/ui/wavy-background";
+
 export default function About() {
   return (
+    <WavyBackground className="max-w-4xl mx-auto pb-40">
     <div className="max-w-4xl mx-auto">
       <h1 className="text-4xl font-bold mb-8 text-center text-blue-800">
         About <span className="text-indigo-600">SleepTracker</span>
@@ -28,5 +33,6 @@ export default function About() {
         </p>
       </div>
     </div>
+    </WavyBackground>
   );
 }

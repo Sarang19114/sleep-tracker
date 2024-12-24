@@ -1,7 +1,11 @@
+'use client';
 import Link from 'next/link'
+import React from "react";
+import { WavyBackground } from "@/components/ui/wavy-background";
 
 export default function Home() {
   return (
+    <WavyBackground className="max-w-4xl mx-auto pb-40">
     <div className="text-center">
       <h1 className="text-5xl font-bold mb-8 text-blue-800">
         Welcome to <span className="text-indigo-600">Sleep</span>Tracker
@@ -191,5 +195,6 @@ export default function Home() {
         </div>
       </div>
     </div>
+    </WavyBackground>
   );
 }

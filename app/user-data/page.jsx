@@ -1,5 +1,6 @@
 'use client';
-
+import React from "react";
+import { WavyBackground } from "@/components/ui/wavy-background";
 import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Button } from '@/components/ui/button';
@@ -88,7 +89,9 @@ export default function UserData() {
   };
 
   return (
+    
     <div className="max-w-4xl mx-auto p-6">
+      <WavyBackground className="max-w-4xl mx-auto pb-40">
       <h1 className="text-4xl font-bold mb-8 text-center text-blue-800 dark:text-gray-100">Your Sensor Data</h1>
 
       {/* Duration input */}
@@ -169,6 +172,7 @@ export default function UserData() {
           <Link href="/recommendations">Next: Chat BOT</Link>
         </Button>
       </div>
+      </WavyBackground>
     </div>
   );
 }
